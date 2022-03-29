@@ -105,4 +105,6 @@ print(users)
 
 # 10. Add another person to the users dictionary
 
+users.update({"Bob":"unknown"})
 
+print(users)
